@@ -1,0 +1,10 @@
+[
+  {
+    "model": "store.Product",
+    "pk": 1,
+    "fields": {
+      "name": "Test product",
+      "price": "999"
+    }
+  }
+]

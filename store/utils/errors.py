@@ -1,0 +1,1 @@
+AUTH_ERROR = 'Your password or login is invalid.'

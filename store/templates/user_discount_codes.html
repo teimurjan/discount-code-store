@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <h3>Hello</h3>
+            {% if codes %}
+                <p>Here are your discount codes:</p>
+                <ul class="list-group">
+                    {% for code in codes %}
+                        <li class="list-group-item"><b class="text-primary">{{ code.value }}</b></li>
+                    {% endfor %}
+                </ul>
+                </div>
+            {% else %}
+                <p>You have not been given any codes yet.</p>
+            {% endif %}
+    </div>
+{% endblock %}

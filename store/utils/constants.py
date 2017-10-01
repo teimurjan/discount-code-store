@@ -1,0 +1,25 @@
+DISCOUNT_CODES_KEY = 'codes'
+ERRORS_KEY = 'errors'
+USERNAME_KEY = 'username'
+PASSWORD_KEY = 'password'
+AUTH_KEY = 'auth'
+PRODUCTS_KEY = 'products'
+PRODUCT_KEY = 'product'
+USER_KEY = 'user'
+USERS_KEY = 'users'
+
+DISCOUNT_CODE_FORMAT_REGEX = r'^[A-Z\d]-[A-Z\d]-[A-Z\d]-[A-Z\d]$'
+
+INDEX_URL_NAME = 'index'
+LOGIN_URL_NAME = 'login'
+LOGOUT_URL_NAME = 'logout'
+USERS_URL_NAME = 'users'
+PRODUCTS_URL_NAME = 'products'
+FIND_USERS_URL_NAME = 'find_user'
+
+OK_STATUS_CODE = 200
+UNAUTHORIZED_CODE = 401
+NOT_FOUND_CODE = 404
+BAD_REQUEST_CODE = 400
+FOUND_CODE = 302
+CONFLICT_CODE = 409

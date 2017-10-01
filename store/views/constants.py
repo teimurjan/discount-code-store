@@ -1,0 +1,7 @@
+STAFF_INDEX_TEMPLATE = 'staff_discount_codes.html'
+FIND_USER_TEMPLATE = 'find_user.html'
+USERS_TEMPLATE = 'users.html'
+PRODUCTS_TEMPLATE = 'products.html'
+USER_INDEX_TEMPLATE = 'user_discount_codes.html'
+LOGIN_TEMPLATE = 'login.html'
+ERROR_TEMPLATE = 'error.html'

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <h3>Find a user by username</h3>
+            <div class="input-group">
+                <form action="{% url 'users' %}" method="get">
+                    {% csrf_token %}
+                    <input type="text" name="username" class="form-control"/>
+                    <button style="margin-top: 5%" class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
